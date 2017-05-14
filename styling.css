@@ -4,7 +4,7 @@ html{ /*necessary to make the .footer class element stick to the bottom at all t
 }
 
 body {
- background:url('http://freenaturestock.s3.amazonaws.com/232.jpg') no-repeat center center;
+ background:url('./images/232_b.jpg') no-repeat center center;
   background-attachment: fixed;
 /*  background-size:100% 100%;*/
   background-size:cover;
@@ -88,7 +88,7 @@ body {
   text-align:right;
   font-size:15px;
   padding:10px 30px;
-  
+
   /*stuff necessary to make the footer stick to the bottom at all times : (to be used with the styling to the html element as i did at the start of the css flie) */
   position:absolute;
   width:100%;
@@ -103,17 +103,12 @@ body {
     margin-top:-5px;
     margin-left:-5px;
   }
-  
+
   .jumbotron{
     margin-top:100px;
   }
-  
+
   .bodyimage{
     height:120px;
   }
 }
-
-
-
-
-
